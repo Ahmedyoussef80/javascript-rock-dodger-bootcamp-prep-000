@@ -73,4 +73,5 @@ function createRock(x) {
       moveDodgerLeft();
       e.preventDefault();
        e.stopPropagation();
-       
+    }   //On RIGHT_ARROW, animate moveDodgerRight function
+    
