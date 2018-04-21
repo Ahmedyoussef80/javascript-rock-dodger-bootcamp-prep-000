@@ -52,4 +52,5 @@ function createRock(x) {
      //Add rock to array
      ROCKS.push(rock)
      
-   return rock	 
+   return rock	 }
+   
