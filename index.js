@@ -80,4 +80,5 @@ function createRock(x) {
     e.stopPropagation();
     }
  }	 
- 
+ function moveDodgerLeft() {
+   
