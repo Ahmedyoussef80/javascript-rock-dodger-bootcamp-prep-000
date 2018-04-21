@@ -90,4 +90,5 @@ function createRock(x) {
  }	 
  function moveDodgerRight() {
    var leftNumbers = DODGER.style.left.replace('px', '')
+   var left = parseInt(leftNumbers, 10);
    
