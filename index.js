@@ -97,4 +97,5 @@ function createRock(x) {
    }
  }	 
  
- 
+ function positionToInteger(p) {
+   
