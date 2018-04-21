@@ -70,3 +70,4 @@ function createRock(x) {
  function moveDodger(e) {	 function moveDodger(e) {
    //On LEFT_ARROW, animate moveDodgerLeft function
     if(e.which === LEFT_ARROW){
+      moveDodgerLeft();
