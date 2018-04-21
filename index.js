@@ -88,4 +88,5 @@ function createRock(x) {
     DODGER.style.left = `${left - 4}px`
   }
  }	 
- 
+ function moveDodgerRight() {
+   
