@@ -72,4 +72,5 @@ function createRock(x) {
     if(e.which === LEFT_ARROW){
       moveDodgerLeft();
       e.preventDefault();
-      
+       e.stopPropagation();
+       
