@@ -92,4 +92,8 @@ function createRock(x) {
    var leftNumbers = DODGER.style.left.replace('px', '')
    var left = parseInt(leftNumbers, 10);
    //If dodger's not at the edge, move the dodger right
-   
+   if(left < 360){
+   DODGER.style.left = `${left + 4}px`
+   }
+ }	 
+ 
