@@ -89,4 +89,5 @@ function createRock(x) {
   }
  }	 
  function moveDodgerRight() {
+   var leftNumbers = DODGER.style.left.replace('px', '')
    
