@@ -68,3 +68,5 @@ function createRock(x) {
  }	 
  	 
  function moveDodger(e) {	 function moveDodger(e) {
+   //On LEFT_ARROW, animate moveDodgerLeft function
+   
