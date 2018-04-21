@@ -98,4 +98,5 @@ function createRock(x) {
  }	 
  
  function positionToInteger(p) {
-   
+    return parseInt(p.split('px')[0]) || 0
+ }	 
