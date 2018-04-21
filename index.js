@@ -75,4 +75,9 @@ function createRock(x) {
        e.stopPropagation();
     }   //On RIGHT_ARROW, animate moveDodgerRight function
     else if (e.which === RIGHT_ARROW) {
-      
+      moveDodgerRight();
++     e.preventDefault();
++     e.stopPropagation();
++   }
+ }	 
+ 
