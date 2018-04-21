@@ -54,4 +54,17 @@ function createRock(x) {
      
    return rock	 }
    //Reset game on loss
-   
+    function endGame() {
+ clearInterval(gameInterval);
+  START.style.display = "block";
+ window.removeEventListener('keydown', moveDodger);
+  //Remove rocks from DOM
+  ROCKS.forEach(function(rock){
+    rock.remove();
+  })
+  //Empty the rock array;
+  ROCKS.splice(0);
+  alert('YOU LOSE');
+ }	 
+ 	 
+ function moveDodger(e) {	 function moveDodger(e) {
