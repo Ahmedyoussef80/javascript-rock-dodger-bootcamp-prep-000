@@ -53,4 +53,5 @@ function createRock(x) {
      ROCKS.push(rock)
      
    return rock	 }
+   //Reset game on loss
    
